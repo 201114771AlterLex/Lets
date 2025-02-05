@@ -1,0 +1,1 @@
+cmd_/home/alterlex/Documentos/Lets/Module.symvers :=  sed 's/ko$$/o/'  /home/alterlex/Documentos/Lets/modules.order | scripts/mod/modpost -m      -o /home/alterlex/Documentos/Lets/Module.symvers -e -i Module.symvers -T - 
